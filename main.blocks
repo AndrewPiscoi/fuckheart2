@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="{B/=aU.o}[Mn7ct]My5?" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="DzBggZpk{aeR|1Tsr2:#"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="playMelody" id="LfE7-a]QP#G1)F.i#7?3"><value name="melody"><shadow type="melody_editor" id="FDFxrVjxy|F.k2}E-Pgp"><field name="melody">"G F G A D F E D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="$GU?c)2XP=UlIan9f.L9"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="music_set_built_in_speaker_enable" id="?$u_O]M:AS--~:Fu@q}O"><value name="enabled"><shadow type="toggleOnOff" id="(u}x2lDgT|a5F`Xp)zj0"><field name="on">true</field></shadow></value><next><block type="device_show_leds" id=".E?mAm]C/.Y5TA9qVR-2"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        . . # . .
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
